@@ -14,9 +14,9 @@ module "iam" {
   source = "./modules/iam"
 }
  
-module "redshift" {
-  source = "./modules/redshift"
-}
+# module "redshift" {
+#   source = "./modules/redshift"
+# }
  
 module "monitoring" {
   source = "./modules/monitoring"
