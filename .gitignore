@@ -1,0 +1,55 @@
+# -------------------------
+# Terraform
+# -------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Lock file (optional: keep if using teams)
+# .terraform.lock.hcl
+
+# -------------------------
+# Backend State
+# -------------------------
+backend.tf.backup
+
+# -------------------------
+# AWS Credentials
+# -------------------------
+.aws/
+credentials
+*.pem
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Zip files (Lambda builds)
+# -------------------------
+*.zip

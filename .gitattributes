@@ -1,0 +1,13 @@
+# Auto normalize text files
+* text=auto
+
+# Force LF for shell scripts
+*.sh text eol=lf
+
+# Force LF for Terraform files
+*.tf text eol=lf
+*.hcl text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
